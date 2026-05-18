@@ -138,7 +138,7 @@ function App() {
     }
 
     try {
-      const response = await axios.post<LoginResponse>('/api/auth/v1.0/login/', {
+      const response = await axios.post<LoginResponse>('/api/auth/v1.0/login', {
         email,
         password,
       });

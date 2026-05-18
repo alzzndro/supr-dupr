@@ -1,9 +1,13 @@
+[build]
+  publish = "dist"
+  command = "npm run build"
+  functions = "netlify/functions"
+
 [[redirects]]
   from = "/api/*"
-  to = "https://api.dupr.gg/:splat"
+  to = "/.netlify/functions/api"
   status = 200
   force = true
-  headers = { Origin = "https://events.mydupr.com", Referer = "https://events.mydupr.com/" }
 
 [[redirects]]
   from = "/*"
