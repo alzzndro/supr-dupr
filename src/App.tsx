@@ -729,7 +729,7 @@ function App() {
       {/* Modern Mini Footer */}
       <footer className="py-6 border-t border-slate-900 text-center">
         <p className="text-xs text-slate-600">
-          DUPR Hub • Client-Side Integration Service • Unofficial Dashboard
+          DUPR API • DEVELOPED BY JOSE LESANDRO B. TORRES • UNOFFICIAL
         </p>
       </footer>
     </div>
